@@ -2,7 +2,6 @@
   <div id="app">
 
     <router-view/>
-    <h1>黑马头条</h1>
   </div>
 </template>
 
@@ -12,4 +11,9 @@ export default {
 }
 </script>
 <style lang="less">
+.box{
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+}
 </style>
